@@ -1,0 +1,28 @@
+{
+    "name": "game menu v2",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
+        "animation": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
